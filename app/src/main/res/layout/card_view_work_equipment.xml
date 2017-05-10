@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+	android:id="@+id/card_view_contact"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:foreground="?android:attr/selectableItemBackground"
+	app:cardUseCompatPadding="true">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="@dimen/recycler_view_item_padding">
+
+		<TextView
+			android:id="@+id/text_view_work_equipment_name"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingBottom="@dimen/card_view_vertical_padding_large"
+			android:text="@string/not_available"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:textStyle="bold" />
+
+		<TextView
+			android:id="@+id/text_view_work_equipment_serial_number"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingBottom="@dimen/card_view_vertical_padding_medium"
+			android:text="@string/not_available"
+			android:textAppearance="@style/TextStyle.Medium"
+			android:textStyle="bold" />
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:paddingBottom="@dimen/card_view_vertical_padding_large"
+			android:baselineAligned="false">
+
+			<LinearLayout
+				android:id="@+id/linear_layout_type"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:layout_weight="0.5">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/equipment_information_type_short"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:textColor="@color/work_orders_medium_text" />
+
+				<TextView
+					android:id="@+id/text_view_work_equipment_type"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:paddingEnd="@dimen/card_view_horizontal_padding_medium"
+					android:paddingStart="@dimen/card_view_horizontal_padding_medium"
+					android:text="@string/empty_string"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:textColor="@color/work_orders_medium_text" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:id="@+id/linear_layout_series"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:layout_weight="0.5">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/equipment_information_series_short"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:textColor="@color/work_orders_medium_text" />
+
+				<TextView
+					android:id="@+id/text_view_work_equipment_series"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:paddingEnd="@dimen/card_view_horizontal_padding_medium"
+					android:paddingStart="@dimen/card_view_horizontal_padding_medium"
+					android:text="@string/empty_string"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:textColor="@color/work_orders_medium_text" />
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,142 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	tools:context="com.example.ghost005.serviceclient.dialogs.AttachmentDialogFragment">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1"
+		android:orientation="vertical"
+		android:padding="@dimen/edit_pattern_margin">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="@dimen/edit_pattern_margin"
+			android:text="@string/dialog_attachment_file_name"
+			android:textAppearance="@style/TextStyle.Large" />
+
+		<EditText
+			android:id="@+id/edit_text_file_name"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginEnd="@dimen/spinner_margin_end"
+			android:layout_marginStart="@dimen/spinner_margin_start"
+			android:inputType="textCapSentences"
+			android:maxLines="1"
+			android:textAppearance="@style/TextStyle.Large" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="@dimen/edit_pattern_margin"
+			android:maxLines="1"
+			android:text="@string/dialog_attachment_file_description"
+			android:textAppearance="@style/TextStyle.Large" />
+
+		<EditText
+			android:id="@+id/edit_text_file_description"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginEnd="@dimen/spinner_margin_end"
+			android:layout_marginStart="@dimen/spinner_margin_start"
+			android:inputType="textCapSentences"
+			android:textAppearance="@style/TextStyle.Large" />
+
+		<TextView
+			android:id="@+id/text_view_attachment"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="@dimen/edit_pattern_margin"
+			android:text="@string/dialog_attachment"
+			android:textAppearance="@style/TextStyle.Large" />
+
+		<LinearLayout
+			android:id="@+id/linear_layout_spinner"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+
+			<Spinner
+				android:id="@+id/spinner_attachments"
+				style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_marginEnd="@dimen/spinner_margin_end"
+				android:layout_marginStart="@dimen/spinner_margin_start"
+				android:layout_weight="1" />
+
+			<ImageView
+				android:id="@+id/image_view_new_attachment"
+				android:layout_width="@dimen/min_touch_view_size"
+				android:layout_height="@dimen/min_touch_view_size"
+				android:layout_gravity="center_vertical"
+				android:background="?attr/selectableItemBackgroundBorderless"
+				android:scaleType="centerInside"
+				android:src="@drawable/ic_plus_black_24dp" />
+
+		</LinearLayout>
+
+
+		<LinearLayout
+			android:id="@+id/linear_layout_edit_text"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+
+			<LinearLayout
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:orientation="vertical">
+
+				<EditText
+					android:id="@+id/edit_text_attachment_name"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginEnd="@dimen/spinner_margin_end"
+					android:layout_marginStart="@dimen/spinner_margin_start"
+					android:inputType="textCapSentences"
+					android:maxLines="1"
+					android:textAppearance="@style/TextStyle.Large" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_margin="@dimen/edit_pattern_margin"
+					android:text="@string/dialog_attachment_description"
+					android:textAppearance="@style/TextStyle.Large" />
+
+				<EditText
+					android:id="@+id/edit_text_attachment_description"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginEnd="@dimen/spinner_margin_end"
+					android:layout_marginStart="@dimen/spinner_margin_start"
+					android:inputType="textCapSentences"
+					android:textAppearance="@style/TextStyle.Large" />
+
+			</LinearLayout>
+
+			<ImageView
+				android:id="@+id/image_view_cancel_new"
+				android:layout_width="@dimen/min_touch_view_size"
+				android:layout_height="@dimen/min_touch_view_size"
+				android:layout_gravity="center_vertical"
+				android:background="?attr/selectableItemBackgroundBorderless"
+				android:scaleType="centerInside"
+				android:src="@drawable/ic_clear_black_24dp" />
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<include
+		android:id="@+id/layout_buttons"
+		layout="@layout/buttons_choose" />
+
+</LinearLayout>

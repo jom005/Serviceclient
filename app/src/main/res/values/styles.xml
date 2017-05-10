@@ -1,0 +1,88 @@
+<resources>
+
+    <!-- Base application theme -->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!-- empty -->
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:navigationBarColor">@color/accent</item>
+    </style>
+
+    <!-- Toolbar theme -->
+    <style name="ToolbarTheme" parent="Theme.AppCompat">
+        <item name="android:textColorPrimary">@color/abc_primary_text_material_dark</item>
+        <item name="android:textColorSecondary">@color/abc_secondary_text_material_dark</item>
+        <item name="android:actionMenuTextColor">@color/abc_primary_text_material_dark</item>
+    </style>
+
+    <!-- Popup menu theme -->
+    <style name="PopupTheme" parent="Theme.AppCompat">
+        <item name="android:textColor">@color/abc_primary_text_material_dark</item>
+        <item name="android:textColorSecondary">@color/abc_secondary_text_material_dark</item>
+        <item name="android:background">@color/primary</item>
+    </style>
+
+    <!-- NavigationView -->
+    <style name="NavigationView">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!--TabLayout -->
+    <style name="TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">@color/primary</item>
+        <item name="tabTextColor">@color/tab_not_selected</item>
+        <item name="tabSelectedTextColor">@color/tab_selected</item>
+        <item name="tabIndicatorColor">@color/tab_selected</item>
+    </style>
+
+    <!-- Divider -->
+    <style name="divider_horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+
+    <style name="divider_vertical">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+
+    <!-- Text Styles -->
+    <style name="TextStyle">
+
+    </style>
+
+    <style name="TextStyle.Small" parent="TextStyle">
+        <item name="android:textColor">@color/text_small</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextStyle.Medium" parent="TextStyle">
+        <item name="android:textColor">@color/text_medium</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="TextStyle.Large" parent="TextStyle">
+        <item name="android:textColor">@color/text_large</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="TextStyle.Comment" parent="TextStyle">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="TextStyle.ColorButton" parent="TextStyle">
+        <item name="android:textColor">@color/text_color_button</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+</resources>
+

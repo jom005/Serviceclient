@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="main_color">#009374</color>
+
+    <color name="primary">#616161</color>
+    <color name="accent">#2DC6D6</color>
+    <color name="primaryDark">#212121</color>
+    <!-- Text -->
+    <color name="card_view_text">#32cbcb</color>
+    <color name="text_color_button">#32cbcb</color>
+    <color name="text_large">#000000</color>
+    <color name="text_medium">#000000</color>
+    <color name="text_small">#000000</color>
+
+    <color name="tab_selected">#32cbcb</color>
+    <color name="tab_not_selected">#000000</color>
+
+    <color name="edit_text_border">#000</color>
+    <color name="edit_text_border_focus">#009374</color>
+
+    <color name="image_button_scan">#009374</color>
+    <color name="image_button_scan_pressed">#006650</color>
+
+    <color name="work_orders_medium_text">#3034f6</color>
+    <color name="environment_small_text">#3034f6</color>
+    <color name="employee_medium_text">#3034f6</color>
+    <color name="employee_missing_skills">#FF0000</color>
+
+    <color name="status_open">#FF0000</color>
+    <color name="status_in_progress">#F88017</color>
+    <color name="status_finished">#00FF00</color>
+
+    <color name="snackbar_text">#fff</color>
+
+    <color name="info_licenses">#ccc</color>
+    <color name="secondary_text_material_light">#000000</color>
+</resources>

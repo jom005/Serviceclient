@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<group
+		android:checkableBehavior="single">
+		<item
+			android:id="@+id/drawer_overview"
+			android:checked="true"
+			android:title="@string/drawer_work_order_overview" />
+		<item
+			android:id="@+id/drawer_inventory"
+			android:title="@string/drawer_vehicle_inventory" />
+		<item
+			android:id="@+id/drawer_knowledge"
+			android:title="@string/drawer_knowledge_basement" />
+		<item
+			android:id="@+id/drawer_scheduling"
+			android:title="@string/drawer_scheduling" />
+	</group>
+	<group
+		android:id="@+id/drawer_import_export"
+		android:checkableBehavior="none">
+		<item
+			android:id="@+id/drawer_import"
+			android:title="@string/drawer_import" />
+		<item
+			android:id="@+id/drawer_export"
+			android:title="@string/drawer_export" />
+	</group>
+	<group
+		android:id="@+id/drawer_settings_info"
+		android:checkableBehavior="none">
+		<item
+			android:id="@+id/drawer_settings"
+			android:title="@string/drawer_settings" />
+		<item
+			android:id="@+id/drawer_info"
+			android:title="@string/drawer_info" />
+	</group>
+</menu>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:foreground="?android:attr/selectableItemBackground"
+	app:cardUseCompatPadding="true">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:padding="@dimen/recycler_view_item_padding">
+
+		<ImageView
+			android:id="@+id/image_view_file"
+			android:layout_width="75dp"
+			android:layout_height="75dp"
+			android:layout_gravity="center_vertical"
+			android:layout_marginBottom="5dp"
+			android:layout_marginEnd="15dp"
+			android:layout_marginStart="5dp"
+			android:layout_marginTop="5dp" />
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+
+			<TextView
+				android:id="@+id/text_view_file_name"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingBottom="@dimen/card_view_vertical_padding_large"
+				android:maxLines="1"
+				android:textAppearance="@style/TextStyle.Large"
+				tools:text="Test File" />
+
+			<TextView
+				android:id="@+id/text_view_file_description"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:ellipsize="end"
+				android:maxLines="3"
+				android:paddingBottom="@dimen/card_view_vertical_padding_large"
+				android:textAppearance="@style/TextStyle.Medium"
+				tools:text="Test Description" />
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:baselineAligned="false">
+
+				<LinearLayout
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_weight="0.5"
+					android:orientation="vertical">
+
+					<LinearLayout
+						android:id="@+id/linear_layout_file_mime_media_type"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal"
+						android:paddingBottom="@dimen/card_view_vertical_padding_medium">
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:maxLines="1"
+							android:text="@string/file_mime_media_type"
+							android:textAppearance="@style/TextStyle.Medium"
+							android:textColor="@color/work_orders_medium_text" />
+
+						<TextView
+							android:id="@+id/text_view_file_mime_media_type"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:ellipsize="end"
+							android:paddingEnd="@dimen/card_view_horizontal_padding_medium"
+							android:paddingStart="@dimen/card_view_horizontal_padding_medium"
+							android:maxLines="1"
+							android:textAppearance="@style/TextStyle.Medium"
+							android:textColor="@color/work_orders_medium_text"
+							tools:text="@string/empty_string" />
+
+					</LinearLayout>
+
+					<LinearLayout
+						android:id="@+id/linear_layout_file_mime_content_type"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal">
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:maxLines="1"
+							android:text="@string/file_mime_content_type"
+							android:textAppearance="@style/TextStyle.Medium"
+							android:textColor="@color/work_orders_medium_text" />
+
+						<TextView
+							android:id="@+id/text_view_file_mime_content_type"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:ellipsize="end"
+							android:paddingEnd="@dimen/card_view_horizontal_padding_medium"
+							android:paddingStart="@dimen/card_view_horizontal_padding_medium"
+							android:maxLines="1"
+							android:textAppearance="@style/TextStyle.Medium"
+							android:textColor="@color/work_orders_medium_text"
+							tools:text="@string/empty_string" />
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_weight="0.5"
+					android:orientation="vertical">
+
+					<LinearLayout
+						android:id="@+id/linear_layout_file_create_date"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal"
+						android:paddingBottom="@dimen/card_view_vertical_padding_medium">
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:maxLines="1"
+							android:text="@string/file_create_date"
+							android:textAppearance="@style/TextStyle.Medium"
+							android:textColor="@color/work_orders_medium_text" />
+
+						<TextView
+							android:id="@+id/text_view_file_create_date"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:ellipsize="end"
+							android:paddingEnd="@dimen/card_view_horizontal_padding_medium"
+							android:paddingStart="@dimen/card_view_horizontal_padding_medium"
+							android:maxLines="1"
+							android:textAppearance="@style/TextStyle.Medium"
+							android:textColor="@color/work_orders_medium_text"
+							tools:text="@string/empty_string" />
+
+					</LinearLayout>
+
+					<LinearLayout
+						android:id="@+id/linear_layout_file_modification_date"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal"
+						android:paddingBottom="@dimen/card_view_vertical_padding_medium">
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:maxLines="1"
+							android:text="@string/file_modification_date"
+							android:textAppearance="@style/TextStyle.Medium"
+							android:textColor="@color/work_orders_medium_text" />
+
+						<TextView
+							android:id="@+id/text_view_file_modification_date"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:ellipsize="end"
+							android:paddingEnd="@dimen/card_view_horizontal_padding_medium"
+							android:paddingStart="@dimen/card_view_horizontal_padding_medium"
+							android:maxLines="1"
+							android:textAppearance="@style/TextStyle.Medium"
+							android:textColor="@color/work_orders_medium_text"
+							tools:text="@string/empty_string" />
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</android.support.v7.widget.CardView>

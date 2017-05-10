@@ -1,0 +1,917 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	tools:context="com.example.ghost005.serviceclient.fragments.work_order.EnvironmentalConditionFragment">
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+
+			<android.support.v7.widget.CardView
+				android:id="@+id/card_view_description"
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:foreground="?android:attr/selectableItemBackground"
+				app:cardUseCompatPadding="true">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:padding="@dimen/card_view_padding">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="@dimen/card_view_padding"
+						android:text="@string/environment_description"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textStyle="bold" />
+
+					<TextView
+						android:id="@+id/text_view_description"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="@dimen/card_view_padding"
+						android:textAppearance="?android:attr/textAppearanceLarge" />
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+
+			<android.support.v7.widget.CardView
+				android:id="@+id/card_view_wind_speed"
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:foreground="?android:attr/selectableItemBackground"
+				app:cardUseCompatPadding="true">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:padding="@dimen/card_view_padding">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="@dimen/card_view_padding"
+						android:text="@string/environment_wind_speed"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textStyle="bold" />
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal"
+						android:padding="@dimen/card_view_padding">
+
+						<TextView
+							android:id="@+id/text_view_wind_speed"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginEnd="@dimen/edit_text_edit_pattern_margin"
+							android:textAppearance="?android:attr/textAppearanceLarge" />
+
+						<TextView
+							android:id="@+id/text_view_wind_speed_unit"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="@string/environment_wind_speed_unit"
+							android:textAppearance="?android:attr/textAppearanceLarge" />
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+
+			<android.support.v7.widget.CardView
+				android:id="@+id/card_view_wind_direction"
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:foreground="?android:attr/selectableItemBackground"
+				app:cardUseCompatPadding="true">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:padding="@dimen/card_view_padding">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="@dimen/card_view_padding"
+						android:text="@string/environment_wind_direction"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textStyle="bold" />
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal"
+						android:padding="@dimen/card_view_padding">
+
+						<TextView
+							android:id="@+id/text_view_wind_direction"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginEnd="@dimen/edit_text_edit_pattern_margin"
+							android:textAppearance="?android:attr/textAppearanceLarge" />
+
+						<TextView
+							android:id="@+id/text_view_wind_direction_unit"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="@string/environment_wind_direction_unit"
+							android:textAppearance="?android:attr/textAppearanceLarge" />
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+
+			<android.support.v7.widget.CardView
+				android:id="@+id/card_view_probability_of_rain"
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:foreground="?android:attr/selectableItemBackground"
+				app:cardUseCompatPadding="true">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:padding="@dimen/card_view_padding">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="@dimen/card_view_padding"
+						android:text="@string/environment_probability_of_rain"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textStyle="bold" />
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal"
+						android:padding="@dimen/card_view_padding">
+
+						<TextView
+							android:id="@+id/text_view_probability_of_rain"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginEnd="@dimen/edit_text_edit_pattern_margin"
+							android:textAppearance="?android:attr/textAppearanceLarge" />
+
+						<TextView
+							android:id="@+id/text_view_probability_of_rain_unit"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="@string/environment_probability_of_rain_unit"
+							android:textAppearance="?android:attr/textAppearanceLarge" />
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+
+			<android.support.v7.widget.CardView
+				android:id="@+id/card_view_amount_of_precipitation"
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:foreground="?android:attr/selectableItemBackground"
+				app:cardUseCompatPadding="true">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:padding="@dimen/card_view_padding">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="@dimen/card_view_padding"
+						android:text="@string/environment_amount_of_precipitation"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textStyle="bold" />
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal"
+						android:padding="@dimen/card_view_padding">
+
+						<TextView
+							android:id="@+id/text_view_amount_of_precipitation"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginEnd="@dimen/edit_text_edit_pattern_margin"
+							android:textAppearance="?android:attr/textAppearanceLarge" />
+
+						<TextView
+							android:id="@+id/text_view_amount_of_precipitation_unit"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="@string/environment_amount_of_precipitation_unit"
+							android:textAppearance="?android:attr/textAppearanceLarge" />
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+
+			<android.support.v7.widget.CardView
+				android:id="@+id/card_view_humidity"
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:foreground="?android:attr/selectableItemBackground"
+				app:cardUseCompatPadding="true">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:padding="@dimen/card_view_padding">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="@dimen/card_view_padding"
+						android:text="@string/environment_humidity"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textStyle="bold" />
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal"
+						android:padding="@dimen/card_view_padding">
+
+						<TextView
+							android:id="@+id/text_view_humidity"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginEnd="@dimen/edit_text_edit_pattern_margin"
+							android:textAppearance="?android:attr/textAppearanceLarge" />
+
+						<TextView
+							android:id="@+id/text_view_humidity_unit"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="@string/environment_humidity_unit"
+							android:textAppearance="?android:attr/textAppearanceLarge" />
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+
+			<android.support.v7.widget.CardView
+				android:id="@+id/card_view_cloud_cover"
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:foreground="?android:attr/selectableItemBackground"
+				app:cardUseCompatPadding="true">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:padding="@dimen/card_view_padding">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="@dimen/card_view_padding"
+						android:text="@string/environment_cloud_cover"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textStyle="bold" />
+
+					<TextView
+						android:id="@+id/text_view_cloud_cover"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="@dimen/card_view_padding"
+						android:textAppearance="?android:attr/textAppearanceLarge" />
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+
+			<android.support.v7.widget.CardView
+				android:id="@+id/card_view_atmospheric_pressure"
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:foreground="?android:attr/selectableItemBackground"
+				app:cardUseCompatPadding="true">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:padding="@dimen/card_view_padding">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="@dimen/card_view_padding"
+						android:text="@string/environment_atmospheric_pressure"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textStyle="bold" />
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal"
+						android:padding="@dimen/card_view_padding">
+
+						<TextView
+							android:id="@+id/text_view_atmospheric_pressure"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginEnd="@dimen/edit_text_edit_pattern_margin"
+							android:textAppearance="?android:attr/textAppearanceLarge" />
+
+						<TextView
+							android:id="@+id/text_view_atmospheric_pressure_unit"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="@string/environment_atmospheric_pressure_unit"
+							android:textAppearance="?android:attr/textAppearanceLarge" />
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+
+			<android.support.v7.widget.CardView
+				android:id="@+id/card_view_mean_temperature"
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:foreground="?android:attr/selectableItemBackground"
+				app:cardUseCompatPadding="true">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:padding="@dimen/card_view_padding">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="@dimen/card_view_padding"
+						android:text="@string/environment_mean_temperature"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textStyle="bold" />
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal"
+						android:padding="@dimen/card_view_padding">
+
+						<TextView
+							android:id="@+id/text_view_mean_temperature"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginEnd="@dimen/edit_text_edit_pattern_margin"
+							android:textAppearance="?android:attr/textAppearanceLarge" />
+
+						<TextView
+							android:id="@+id/text_view_mean_temperature_unit"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="@string/environment_mean_temperature_unit"
+							android:textAppearance="?android:attr/textAppearanceLarge" />
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+
+			<android.support.v7.widget.CardView
+				android:id="@+id/card_view_min_temperature"
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:foreground="?android:attr/selectableItemBackground"
+				app:cardUseCompatPadding="true">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:padding="@dimen/card_view_padding">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="@dimen/card_view_padding"
+						android:text="@string/environment_min_temperature"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textStyle="bold" />
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal"
+						android:padding="@dimen/card_view_padding">
+
+						<TextView
+							android:id="@+id/text_view_min_temperature"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginEnd="@dimen/edit_text_edit_pattern_margin"
+							android:textAppearance="?android:attr/textAppearanceLarge" />
+
+						<TextView
+							android:id="@+id/text_view_min_temperature_unit"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="@string/environment_min_temperature_unit"
+							android:textAppearance="?android:attr/textAppearanceLarge" />
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+
+			<android.support.v7.widget.CardView
+				android:id="@+id/card_view_max_temperature"
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:foreground="?android:attr/selectableItemBackground"
+				app:cardUseCompatPadding="true">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:padding="@dimen/card_view_padding">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="@dimen/card_view_padding"
+						android:text="@string/environment_max_temperature"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textStyle="bold" />
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal"
+						android:padding="@dimen/card_view_padding">
+
+						<TextView
+							android:id="@+id/text_view_max_temperature"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginEnd="@dimen/edit_text_edit_pattern_margin"
+							android:textAppearance="?android:attr/textAppearanceLarge" />
+
+						<TextView
+							android:id="@+id/text_view_max_temperature_unit"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="@string/environment_max_temperature_unit"
+							android:textAppearance="?android:attr/textAppearanceLarge" />
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+
+			<android.support.v7.widget.CardView
+				android:id="@+id/card_view_wind_chill"
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:foreground="?android:attr/selectableItemBackground"
+				app:cardUseCompatPadding="true">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:padding="@dimen/card_view_padding">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="@dimen/card_view_padding"
+						android:text="@string/environment_wind_chill"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textStyle="bold" />
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal"
+						android:padding="@dimen/card_view_padding">
+
+						<TextView
+							android:id="@+id/text_view_wind_chill"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginEnd="@dimen/edit_text_edit_pattern_margin"
+							android:textAppearance="?android:attr/textAppearanceLarge" />
+
+						<TextView
+							android:id="@+id/text_view_wind_chill_unit"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="@string/environment_wind_chill_unit"
+							android:textAppearance="?android:attr/textAppearanceLarge" />
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+
+			<android.support.v7.widget.CardView
+				android:id="@+id/card_view_depth_of_snow"
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:foreground="?android:attr/selectableItemBackground"
+				app:cardUseCompatPadding="true">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:padding="@dimen/card_view_padding">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="@dimen/card_view_padding"
+						android:text="@string/environment_depth_of_snow"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textStyle="bold" />
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal"
+						android:padding="@dimen/card_view_padding">
+
+						<TextView
+							android:id="@+id/text_view_depth_of_snow"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginEnd="@dimen/edit_text_edit_pattern_margin"
+							android:textAppearance="?android:attr/textAppearanceLarge" />
+
+						<TextView
+							android:id="@+id/text_view_depth_of_snow_unit"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="@string/environment_depth_of_snow_unit"
+							android:textAppearance="?android:attr/textAppearanceLarge" />
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+
+			<android.support.v7.widget.CardView
+				android:id="@+id/card_view_water_current"
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:foreground="?android:attr/selectableItemBackground"
+				app:cardUseCompatPadding="true">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:padding="@dimen/card_view_padding">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="@dimen/card_view_padding"
+						android:text="@string/environment_water_current"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textStyle="bold" />
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal"
+						android:padding="@dimen/card_view_padding">
+
+						<TextView
+							android:id="@+id/text_view_water_current"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginEnd="@dimen/edit_text_edit_pattern_margin"
+							android:textAppearance="?android:attr/textAppearanceLarge" />
+
+						<TextView
+							android:id="@+id/text_view_water_current_unit"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="@string/environment_water_current_unit"
+							android:textAppearance="?android:attr/textAppearanceLarge" />
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+
+			<android.support.v7.widget.CardView
+				android:id="@+id/card_view_wave_height"
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:foreground="?android:attr/selectableItemBackground"
+				app:cardUseCompatPadding="true">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:padding="@dimen/card_view_padding">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="@dimen/card_view_padding"
+						android:text="@string/environment_wave_height"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textStyle="bold" />
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal"
+						android:padding="@dimen/card_view_padding">
+
+						<TextView
+							android:id="@+id/text_view_wave_height"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginEnd="@dimen/edit_text_edit_pattern_margin"
+							android:textAppearance="?android:attr/textAppearanceLarge" />
+
+						<TextView
+							android:id="@+id/text_view_wave_height_unit"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="@string/environment_wave_height_unit"
+							android:textAppearance="?android:attr/textAppearanceLarge" />
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+
+			<android.support.v7.widget.CardView
+				android:id="@+id/card_view_wave_period"
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:foreground="?android:attr/selectableItemBackground"
+				app:cardUseCompatPadding="true">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:padding="@dimen/card_view_padding">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="@dimen/card_view_padding"
+						android:text="@string/environment_wave_period"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textStyle="bold" />
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal"
+						android:padding="@dimen/card_view_padding">
+
+						<TextView
+							android:id="@+id/text_view_wave_period"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginEnd="@dimen/edit_text_edit_pattern_margin"
+							android:textAppearance="?android:attr/textAppearanceLarge" />
+
+						<TextView
+							android:id="@+id/text_view_wave_period_unit"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="@string/environment_wave_period_unit"
+							android:textAppearance="?android:attr/textAppearanceLarge" />
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+
+			<android.support.v7.widget.CardView
+				android:id="@+id/card_view_sunrise"
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:foreground="?android:attr/selectableItemBackground"
+				app:cardUseCompatPadding="true">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:padding="@dimen/card_view_padding">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="@dimen/card_view_padding"
+						android:text="@string/environment_sunrise"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textStyle="bold" />
+
+					<TextView
+						android:id="@+id/text_view_sunrise"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="@dimen/card_view_padding"
+						android:textAppearance="?android:attr/textAppearanceLarge" />
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+
+			<android.support.v7.widget.CardView
+				android:id="@+id/card_view_sunset"
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:foreground="?android:attr/selectableItemBackground"
+				app:cardUseCompatPadding="true">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:padding="@dimen/card_view_padding">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="@dimen/card_view_padding"
+						android:text="@string/environment_sunset"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textStyle="bold" />
+
+					<TextView
+						android:id="@+id/text_view_sunset"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="@dimen/card_view_padding"
+						android:textAppearance="?android:attr/textAppearanceLarge" />
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+
+			<android.support.v7.widget.CardView
+				android:id="@+id/card_view_low_tide"
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:foreground="?android:attr/selectableItemBackground"
+				app:cardUseCompatPadding="true">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:padding="@dimen/card_view_padding">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="@dimen/card_view_padding"
+						android:text="@string/environment_low_tide"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textStyle="bold" />
+
+					<TextView
+						android:id="@+id/text_view_low_tide"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="@dimen/card_view_padding"
+						android:textAppearance="?android:attr/textAppearanceLarge" />
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+
+			<android.support.v7.widget.CardView
+				android:id="@+id/card_view_high_tide"
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:foreground="?android:attr/selectableItemBackground"
+				app:cardUseCompatPadding="true">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:padding="@dimen/card_view_padding">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="@dimen/card_view_padding"
+						android:text="@string/environment_high_tide"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textStyle="bold" />
+
+					<TextView
+						android:id="@+id/text_view_high_tide"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="@dimen/card_view_padding"
+						android:textAppearance="?android:attr/textAppearanceLarge" />
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+	<include
+		android:id="@+id/buttons"
+		layout="@layout/buttons_choose" />
+
+</LinearLayout>

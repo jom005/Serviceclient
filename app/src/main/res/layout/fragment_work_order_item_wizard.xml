@@ -1,0 +1,50 @@
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context="com.example.ghost005.serviceclient.wizard.WorkOrderItemWizardFragment">
+
+	<LinearLayout
+		android:id="@+id/linear_layout_buttons"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:orientation="horizontal">
+
+		<Button
+			android:id="@+id/button_prev"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="0.999"
+			android:background="?android:attr/selectableItemBackground"
+			android:text="@string/button_prev"
+			android:textAppearance="?android:attr/textAppearanceLarge" />
+
+		<View
+			style="@style/divider_vertical"
+			android:layout_weight="0.001" />
+
+		<Button
+			android:id="@+id/button_next"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="0.999"
+			android:background="?android:attr/selectableItemBackground"
+			android:text="@string/button_next"
+			android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	</LinearLayout>
+
+	<View
+		android:id="@+id/separator_horizontal"
+		style="@style/divider_horizontal"
+		android:layout_above="@id/linear_layout_buttons" />
+
+	<com.example.ghost005.serviceclient.wizard.WizardViewPager
+		android:id="@+id/pager"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_above="@id/separator_horizontal" />
+
+</RelativeLayout>

@@ -1,0 +1,220 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context="com.example.ghost005.serviceclient.fragments.base.TimeReportFragment">
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+
+			<android.support.v7.widget.CardView
+				android:id="@+id/card_view_time_report_employee"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:foreground="?android:attr/selectableItemBackground"
+				app:cardUseCompatPadding="true">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:padding="@dimen/card_view_padding">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:text="@string/time_report_employee"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textStyle="bold" />
+
+					<TextView
+						android:id="@+id/text_view_time_report_employee"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:textAppearance="?android:attr/textAppearanceLarge" />
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+
+			<android.support.v7.widget.CardView
+				android:id="@+id/card_view_time_report_time_type"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:foreground="?android:attr/selectableItemBackground"
+				app:cardUseCompatPadding="true">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:padding="@dimen/card_view_padding">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:text="@string/time_report_time_type"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textStyle="bold" />
+
+					<TextView
+						android:id="@+id/text_view_time_report_time_type"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:textAppearance="?android:attr/textAppearanceLarge" />
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+
+			<android.support.v7.widget.CardView
+				android:id="@+id/card_view_time_report_payment_type"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:foreground="?android:attr/selectableItemBackground"
+				app:cardUseCompatPadding="true">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:padding="@dimen/card_view_padding">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:text="@string/time_report_payment_type"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textStyle="bold" />
+
+					<TextView
+						android:id="@+id/text_view_time_report_payment_type"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:textAppearance="?android:attr/textAppearanceLarge" />
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+
+			<android.support.v7.widget.CardView
+				android:id="@+id/card_view_time_report_start_time"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:foreground="?android:attr/selectableItemBackground"
+				app:cardUseCompatPadding="true">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:padding="@dimen/card_view_padding">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:text="@string/time_report_start_time"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textStyle="bold" />
+
+					<TextView
+						android:id="@+id/text_view_time_report_start_time"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:textAppearance="?android:attr/textAppearanceLarge" />
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+
+			<android.support.v7.widget.CardView
+				android:id="@+id/card_view_time_report_end_time"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:foreground="?android:attr/selectableItemBackground"
+				app:cardUseCompatPadding="true">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:padding="@dimen/card_view_padding">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:text="@string/time_report_end_time"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textStyle="bold" />
+
+					<TextView
+						android:id="@+id/text_view_time_report_end_time"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:textAppearance="?android:attr/textAppearanceLarge" />
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+
+			<android.support.v7.widget.CardView
+				android:id="@+id/card_view_time_report_duration"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:foreground="?android:attr/selectableItemBackground"
+				app:cardUseCompatPadding="true">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:padding="@dimen/card_view_padding">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:text="@string/time_report_duration"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textStyle="bold" />
+
+					<TextView
+						android:id="@+id/text_view_time_report_duration"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:textAppearance="?android:attr/textAppearanceLarge" />
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+	<include
+		android:id="@+id/buttons"
+		layout="@layout/buttons_choose" />
+
+</LinearLayout>

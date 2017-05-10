@@ -1,0 +1,67 @@
+<android.support.v4.widget.DrawerLayout
+	android:id="@+id/drawer_layout"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:fitsSystemWindows="true"
+	tools:context="com.example.ghost005.serviceclient.activities.WorkOrderActivity">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+
+		<include
+			android:id="@+id/toolbar_main"
+			layout="@layout/toolbar_main" />
+
+		<FrameLayout
+			android:id="@+id/content_frame"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1" />
+
+		<View
+			android:id="@+id/separator_horizontal"
+			style="@style/divider_horizontal" />
+
+		<LinearLayout
+			android:id="@+id/linear_layout_buttons"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+
+			<Space
+				android:id="@+id/button_prev"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1" />
+
+			<View
+				style="@style/divider_vertical" />
+
+			<Button
+				android:id="@+id/button_start"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:background="?android:attr/selectableItemBackground"
+				android:text="@string/button_start"
+				android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<android.support.design.widget.NavigationView
+		android:id="@+id/navigation_view"
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+		android:layout_gravity="start"
+		app:headerLayout="@layout/drawer_header"
+		app:menu="@menu/drawer_work_order"
+		app:theme="@style/NavigationView" />
+
+</android.support.v4.widget.DrawerLayout>

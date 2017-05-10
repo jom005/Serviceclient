@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+	android:id="@+id/card_view_contact"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:foreground="?android:attr/selectableItemBackground"
+	app:cardUseCompatPadding="true">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		android:padding="@dimen/card_view_padding"
+		android:layout_marginStart="5dp"
+		android:layout_marginEnd="5dp">
+
+		<TextView
+			android:id="@+id/text_view_contact_role"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/not_available"
+			android:textAppearance="@style/TextStyle.Large"
+			android:textStyle="bold" />
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="horizontal"
+			android:baselineAligned="false">
+
+			<LinearLayout
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:orientation="vertical">
+
+				<TextView
+					android:id="@+id/text_view_contact_name"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textAppearance="@style/TextStyle.Medium"
+					android:textStyle="bold"
+					tools:text="@string/not_available" />
+
+				<TextView
+					android:id="@+id/text_view_contact_address"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textAppearance="@style/TextStyle.Medium"
+					tools:text="@string/not_available" />
+
+				<TextView
+					android:id="@+id/text_view_contact_phone"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textAppearance="@style/TextStyle.Medium"
+					tools:text="@string/not_available" />
+
+				<TextView
+					android:id="@+id/text_view_contact_email"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textAppearance="@style/TextStyle.Medium"
+					tools:text="@string/not_available" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:orientation="vertical">
+
+				<TextView
+					android:id="@+id/text_view_contact_employee_name"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textAppearance="@style/TextStyle.Medium"
+					android:textStyle="bold"
+					tools:text="@string/not_available" />
+
+				<TextView
+					android:id="@+id/text_view_contact_employee_phone"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textAppearance="@style/TextStyle.Medium"
+					tools:text="@string/not_available" />
+
+				<TextView
+					android:id="@+id/text_view_contact_employee_mobile"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textAppearance="@style/TextStyle.Medium"
+					tools:text="@string/not_available" />
+
+				<TextView
+					android:id="@+id/text_view_contact_employee_email"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textAppearance="@style/TextStyle.Medium"
+					tools:text="@string/not_available" />
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</android.support.v7.widget.CardView>

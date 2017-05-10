@@ -1,0 +1,78 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="min_touch_view_size">48dp</dimen>
+
+    <!-- Fragments -->
+    <dimen name="fragment_horizontal_margin">5dp</dimen>
+    <dimen name="fragment_vertical_margin">5dp</dimen>
+    <dimen name="fragment_margin">10dp</dimen>
+    <dimen name="fragment_dialog_comment_margin">10dp</dimen>
+
+    <!--Button -->
+    <dimen name="button_padding_final">10dp</dimen>
+    <dimen name="button_scan_margin">5dp</dimen>
+
+    <!-- CardView -->
+    <dimen name="card_view_padding">5dp</dimen>
+    <dimen name="card_view_horizontal_padding">4dp</dimen>
+    <dimen name="card_view_vertical_margin_comment">10dp</dimen>
+    <dimen name="card_view_item_space">2dp</dimen>
+    <dimen name="card_view_vertical_padding_large">4dp</dimen>
+    <dimen name="card_view_vertical_padding_medium">2dp</dimen>
+    <dimen name="card_view_horizontal_padding_medium">4dp</dimen>
+    <dimen name="card_view_horizontal_padding_small">2dp</dimen>
+    <dimen name="card_view_title_pattern_margin">5dp</dimen>
+
+    <!-- RecyclerView -->
+    <dimen name="recycler_view_item_padding">10dp</dimen>
+
+    <!-- Drawer -->
+    <dimen name="drawer_sub_text_margin">16dp</dimen>
+
+    <!-- Spinner -->
+    <dimen name="spinner_margin_start">5dp</dimen>
+    <dimen name="spinner_margin_end">5dp</dimen>
+
+    <!-- TextView -->
+    <dimen name="text_view_title_padding">5dp</dimen>
+
+    <!-- EditText -->
+    <dimen name="edit_text_padding">10dp</dimen>
+    <dimen name="edit_text_padding_portrait">5dp</dimen>
+    <dimen name="edit_text_edit_pattern_margin">5dp</dimen>
+
+    <!-- CheckBox -->
+    <dimen name="check_box_padding">5dp</dimen>
+
+    <!-- ImageButton -->
+    <dimen name="image_button_clear_margin_end">10dp</dimen>
+
+    <!-- TableLayout -->
+    <dimen name="table_row_padding_start">10dp</dimen>
+    <dimen name="table_row_padding_end">10dp</dimen>
+    <dimen name="table_row_padding_top">2dp</dimen>
+    <dimen name="table_row_padding_bottom">2dp</dimen>
+    <dimen name="table_row_item_padding_start">5dp</dimen>
+    <dimen name="table_row_item_padding_end">5dp</dimen>
+
+    <dimen name="table_layout_padding">10dp</dimen>
+    <dimen name="table_layout_item_padding_horizontal">15dp</dimen>
+    <dimen name="table_layout_row_padding">5dp</dimen>
+
+    <dimen name="edit_pattern_margin">10dp</dimen>
+    <dimen name="view_patter_margin">5dp</dimen>
+
+    <!-- Status indicator -->
+    <dimen name="status_size">20dp</dimen>
+    <dimen name="status_margin_left">10dp</dimen>
+
+    <!-- Text Sizes -->
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_medium">18sp</dimen>
+    <dimen name="text_size_large">22sp</dimen>
+    <dimen name="text_size_comment">20sp</dimen>
+
+</resources>

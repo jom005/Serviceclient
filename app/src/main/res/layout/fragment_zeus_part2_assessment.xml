@@ -1,0 +1,604 @@
+<ScrollView
+	android:id="@+id/scrollView2"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:layout_gravity="center_horizontal"
+	tools:context="com.example.ghost005.serviceclient.fragments.work_order_item.ZeusPart2AssessmentFragment">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+
+		<android.support.v7.widget.CardView
+			android:id="@+id/card_view_zeus_0201"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:foreground="?android:attr/selectableItemBackground"
+			app:cardUseCompatPadding="true">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:padding="@dimen/card_view_padding">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_margin="@dimen/edit_pattern_margin"
+					android:text="@string/zeus_0201"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:textStyle="bold" />
+
+				<TextView
+					android:id="@+id/text_view_zeus_0201"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_margin="@dimen/edit_pattern_margin"
+					android:textAppearance="?android:attr/textAppearanceLarge" />
+
+			</LinearLayout>
+
+		</android.support.v7.widget.CardView>
+
+		<android.support.v7.widget.CardView
+			android:id="@+id/card_view_zeus_0202"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:foreground="?android:attr/selectableItemBackground"
+			app:cardUseCompatPadding="true">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:padding="@dimen/card_view_padding">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_margin="@dimen/edit_pattern_margin"
+					android:text="@string/zeus_0202"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:textStyle="bold" />
+
+				<TextView
+					android:id="@+id/text_view_zeus_0202"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_margin="@dimen/edit_pattern_margin"
+					android:textAppearance="?android:attr/textAppearanceLarge" />
+
+			</LinearLayout>
+
+		</android.support.v7.widget.CardView>
+
+		<android.support.v7.widget.CardView
+			android:id="@+id/card_view_zeus_0203"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:foreground="?android:attr/selectableItemBackground"
+			app:cardUseCompatPadding="true">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:padding="@dimen/card_view_padding">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_margin="@dimen/edit_pattern_margin"
+					android:text="@string/zeus_0203"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:textStyle="bold" />
+
+				<TextView
+					android:id="@+id/text_view_zeus_0203"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_margin="@dimen/edit_pattern_margin"
+					android:textAppearance="?android:attr/textAppearanceLarge" />
+
+			</LinearLayout>
+
+		</android.support.v7.widget.CardView>
+
+		<android.support.v7.widget.CardView
+			android:id="@+id/card_view_zeus_0204"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:foreground="?android:attr/selectableItemBackground"
+			app:cardUseCompatPadding="true">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:padding="@dimen/card_view_padding">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_margin="@dimen/edit_pattern_margin"
+					android:text="@string/zeus_0204"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:textStyle="bold" />
+
+				<TextView
+					android:id="@+id/text_view_zeus_0204"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_margin="@dimen/edit_pattern_margin"
+					android:textAppearance="?android:attr/textAppearanceLarge" />
+
+			</LinearLayout>
+
+		</android.support.v7.widget.CardView>
+
+		<android.support.v7.widget.CardView
+			android:id="@+id/card_view_zeus_0205"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:foreground="?android:attr/selectableItemBackground"
+			app:cardUseCompatPadding="true">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:padding="@dimen/card_view_padding">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_margin="@dimen/edit_pattern_margin"
+					android:text="@string/zeus_0205"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:textStyle="bold" />
+
+				<TextView
+					android:id="@+id/text_view_zeus_0205"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_margin="@dimen/edit_pattern_margin"
+					android:textAppearance="?android:attr/textAppearanceLarge" />
+
+			</LinearLayout>
+
+		</android.support.v7.widget.CardView>
+
+		<android.support.v7.widget.CardView
+			android:id="@+id/card_view_zeus_0206"
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:app="http://schemas.android.com/apk/res-auto"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:foreground="?android:attr/selectableItemBackground"
+			app:cardUseCompatPadding="true">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:padding="@dimen/card_view_padding">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_margin="@dimen/edit_pattern_margin"
+					android:text="@string/zeus_0206"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:textStyle="bold" />
+
+				<TextView
+					android:id="@+id/text_view_zeus_0206"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_margin="@dimen/edit_pattern_margin"
+					android:textAppearance="?android:attr/textAppearanceLarge" />
+
+			</LinearLayout>
+
+		</android.support.v7.widget.CardView>
+
+		<android.support.v7.widget.CardView
+			android:id="@+id/card_view_zeus_0207"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:foreground="?android:attr/selectableItemBackground"
+			app:cardUseCompatPadding="true">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:padding="@dimen/card_view_padding">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_margin="@dimen/edit_pattern_margin"
+					android:text="@string/zeus_0207"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:textStyle="bold" />
+
+				<TextView
+					android:id="@+id/text_view_zeus_0207"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_margin="@dimen/edit_pattern_margin"
+					android:textAppearance="?android:attr/textAppearanceLarge" />
+
+			</LinearLayout>
+
+		</android.support.v7.widget.CardView>
+
+		<android.support.v7.widget.CardView
+			android:id="@+id/card_view_zeus_0208"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:foreground="?android:attr/selectableItemBackground"
+			app:cardUseCompatPadding="true">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:padding="@dimen/card_view_padding">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_margin="@dimen/edit_pattern_margin"
+					android:text="@string/zeus_0208"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:textStyle="bold" />
+
+				<TextView
+					android:id="@+id/text_view_zeus_0208"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_margin="@dimen/edit_pattern_margin"
+					android:textAppearance="?android:attr/textAppearanceLarge" />
+
+			</LinearLayout>
+
+		</android.support.v7.widget.CardView>
+
+		<android.support.v7.widget.CardView
+			android:id="@+id/card_view_zeus_0209"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:foreground="?android:attr/selectableItemBackground"
+			app:cardUseCompatPadding="true">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:padding="@dimen/card_view_padding">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_margin="@dimen/edit_pattern_margin"
+					android:text="@string/zeus_0209"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:textStyle="bold" />
+
+				<TextView
+					android:id="@+id/text_view_zeus_0209"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_margin="@dimen/edit_pattern_margin"
+					android:textAppearance="?android:attr/textAppearanceLarge" />
+
+			</LinearLayout>
+
+		</android.support.v7.widget.CardView>
+
+		<android.support.v7.widget.CardView
+			android:id="@+id/card_view_zeus_0210"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:foreground="?android:attr/selectableItemBackground"
+			app:cardUseCompatPadding="true">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:padding="@dimen/card_view_padding">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_margin="@dimen/edit_pattern_margin"
+					android:text="@string/zeus_0210"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:textStyle="bold" />
+
+				<TextView
+					android:id="@+id/text_view_zeus_0210"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_margin="@dimen/edit_pattern_margin"
+					android:textAppearance="?android:attr/textAppearanceLarge" />
+
+			</LinearLayout>
+
+		</android.support.v7.widget.CardView>
+
+		<android.support.v7.widget.CardView
+			android:id="@+id/card_view_zeus_0211"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:foreground="?android:attr/selectableItemBackground"
+			app:cardUseCompatPadding="true">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:padding="@dimen/card_view_padding">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_margin="@dimen/edit_pattern_margin"
+					android:text="@string/zeus_0211"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:textStyle="bold" />
+
+				<TextView
+					android:id="@+id/text_view_zeus_0211"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_margin="@dimen/edit_pattern_margin"
+					android:textAppearance="?android:attr/textAppearanceLarge" />
+
+			</LinearLayout>
+
+		</android.support.v7.widget.CardView>
+
+		<android.support.v7.widget.CardView
+			android:id="@+id/card_view_zeus_0212"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:foreground="?android:attr/selectableItemBackground"
+			app:cardUseCompatPadding="true">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:padding="@dimen/card_view_padding">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_margin="@dimen/edit_pattern_margin"
+					android:text="@string/zeus_0212"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:textStyle="bold" />
+
+				<TextView
+					android:id="@+id/text_view_zeus_0212"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_margin="@dimen/edit_pattern_margin"
+					android:textAppearance="?android:attr/textAppearanceLarge" />
+
+			</LinearLayout>
+
+		</android.support.v7.widget.CardView>
+
+		<android.support.v7.widget.CardView
+			android:id="@+id/card_view_zeus_ke01"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:foreground="?android:attr/selectableItemBackground"
+			app:cardUseCompatPadding="true">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:padding="@dimen/card_view_padding">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_margin="@dimen/edit_pattern_margin"
+					android:text="@string/zeus_ke_01"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:textStyle="bold" />
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal">
+
+					<TextView
+						android:id="@+id/text_view_zeus_ke01"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_gravity="center_vertical"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:minWidth="20dp"
+						android:textAppearance="?android:attr/textAppearanceLarge" />
+
+					<SeekBar
+						android:id="@+id/seek_bar_zeus_ke01"
+						android:layout_width="0dp"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:layout_weight="1"
+						android:indeterminate="false"
+						android:max="10" />
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+		</android.support.v7.widget.CardView>
+
+		<android.support.v7.widget.CardView
+			android:id="@+id/card_view_zeus_ke0101"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:foreground="?android:attr/selectableItemBackground"
+			app:cardUseCompatPadding="true">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:padding="@dimen/card_view_padding">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_margin="@dimen/edit_pattern_margin"
+					android:text="@string/zeus_ke_0101"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:textStyle="bold" />
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal">
+
+					<TextView
+						android:id="@+id/text_view_zeus_ke0101"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_gravity="center_vertical"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:minWidth="20dp"
+						android:textAppearance="?android:attr/textAppearanceLarge" />
+
+					<SeekBar
+						android:id="@+id/seek_bar_zeus_ke0101"
+						android:layout_width="0dp"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:layout_weight="1"
+						android:indeterminate="false"
+						android:max="10" />
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+		</android.support.v7.widget.CardView>
+
+		<android.support.v7.widget.CardView
+			android:id="@+id/card_view_zeus_ke0102"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:foreground="?android:attr/selectableItemBackground"
+			app:cardUseCompatPadding="true">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:padding="@dimen/card_view_padding">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_margin="@dimen/edit_pattern_margin"
+					android:text="@string/zeus_ke_0102"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:textStyle="bold" />
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal">
+
+					<TextView
+						android:id="@+id/text_view_zeus_ke0102"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_gravity="center_vertical"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:minWidth="20dp"
+						android:textAppearance="?android:attr/textAppearanceLarge" />
+
+					<SeekBar
+						android:id="@+id/seek_bar_zeus_ke0102"
+						android:layout_width="0dp"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:layout_weight="1"
+						android:indeterminate="false"
+						android:max="10" />
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+		</android.support.v7.widget.CardView>
+
+		<android.support.v7.widget.CardView
+			android:id="@+id/card_view_zeus_ke0103"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:foreground="?android:attr/selectableItemBackground"
+			app:cardUseCompatPadding="true">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:padding="@dimen/card_view_padding">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_margin="@dimen/edit_pattern_margin"
+					android:text="@string/zeus_ke_0103"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:textStyle="bold" />
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal">
+
+					<TextView
+						android:id="@+id/text_view_zeus_ke0103"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_gravity="center_vertical"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:minWidth="20dp"
+						android:textAppearance="?android:attr/textAppearanceLarge" />
+
+					<SeekBar
+						android:id="@+id/seek_bar_zeus_ke0103"
+						android:layout_width="0dp"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:layout_weight="1"
+						android:indeterminate="false"
+						android:max="10" />
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+		</android.support.v7.widget.CardView>
+
+	</LinearLayout>
+
+</ScrollView>

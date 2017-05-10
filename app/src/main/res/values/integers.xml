@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<integer name="text_size_small_value">14</integer>
+	<integer name="text_size_medium_value">18</integer>
+	<integer name="text_size_large_value">22</integer>
+</resources>

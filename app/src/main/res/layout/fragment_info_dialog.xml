@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context="com.example.ghost005.serviceclient.dialogs.InfoDialogFragment">
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:layout_marginBottom="5dp"
+				android:layout_marginEnd="20dp"
+				android:layout_marginStart="20dp"
+				android:layout_marginTop="20dp"
+				android:text="@string/info_developed"
+				android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:layout_marginBottom="15dp"
+				android:layout_marginEnd="20dp"
+				android:layout_marginStart="20dp"
+				android:text="@string/info_developer"
+				android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:layout_marginBottom="5dp"
+				android:layout_marginEnd="20dp"
+				android:layout_marginStart="20dp"
+				android:text="@string/info_cooperate"
+				android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			<ImageView
+				android:layout_width="wrap_content"
+				android:layout_height="89dp"
+				android:layout_gravity="center_horizontal"
+				android:layout_marginBottom="10dp"
+				android:layout_marginEnd="20dp"
+				android:layout_marginStart="20dp"
+				android:src="@drawable/logotuhh" />
+
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_margin="20dp"
+				android:text="@string/info_libraries"
+				android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="5dp"
+				android:layout_marginEnd="20dp"
+				android:layout_marginStart="20dp"
+				android:text="@string/info_ormlite"
+				android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			<TextView
+				android:id="@+id/text_view_license_orm_lite"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:layout_marginBottom="20dp"
+				android:layout_marginEnd="20dp"
+				android:layout_marginStart="20dp"
+				android:background="@color/info_licenses"
+				android:padding="10dp" />
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="5dp"
+				android:layout_marginEnd="20dp"
+				android:layout_marginStart="20dp"
+				android:text="@string/info_apache"
+				android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			<TextView
+				android:id="@+id/text_view_license_apache"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:layout_marginBottom="20dp"
+				android:layout_marginEnd="20dp"
+				android:layout_marginStart="20dp"
+				android:background="@color/info_licenses"
+				android:padding="10dp" />
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="5dp"
+				android:layout_marginEnd="20dp"
+				android:layout_marginStart="20dp"
+				android:text="@string/info_picasso"
+				android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			<TextView
+				android:id="@+id/text_view_license_picasso"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:layout_marginEnd="20dp"
+				android:layout_marginStart="20dp"
+				android:background="@color/info_licenses"
+				android:padding="10dp" />
+
+		</LinearLayout>
+
+	</ScrollView>
+
+	<Button
+		android:id="@+id/button_dialog_close"
+		style="@android:style/Widget.DeviceDefault.Light.ActionButton"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:text="@string/dialog_close"
+		android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>

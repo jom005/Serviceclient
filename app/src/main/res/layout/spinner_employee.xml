@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:padding="10dp">
+
+	<TextView
+		android:id="@+id/text_view_employee_name"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="@dimen/card_view_padding"
+		android:text="@string/empty_string"
+		android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:padding="@dimen/card_view_padding">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/person_personnel_number"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:textColor="@color/employee_medium_text" />
+
+		<TextView
+			android:id="@+id/text_view_employee_id"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingEnd="@dimen/table_row_item_padding_end"
+			android:paddingStart="@dimen/table_row_item_padding_start"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:textColor="@color/employee_medium_text" />
+
+	</LinearLayout>
+
+</LinearLayout>

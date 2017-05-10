@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<group
+		android:checkableBehavior="single">
+		<item
+			android:id="@+id/drawer_order_information"
+			android:title="@string/drawer_order_information" />
+		<item
+			android:id="@+id/drawer_order_power_plant"
+			android:title="@string/drawer_order_power_plant" />
+		<item
+			android:id="@+id/drawer_order_energy_system"
+			android:title="@string/drawer_order_energy_system" />
+		<item
+			android:id="@+id/drawer_contact"
+			android:title="@string/drawer_contact" />
+		<item
+			android:id="@+id/drawer_history"
+			android:title="@string/drawer_order_work_history" />
+		<item
+			android:id="@+id/drawer_times"
+			android:title="@string/drawer_times" />
+		<item
+			android:id="@+id/drawer_attachments"
+			android:title="@string/drawer_attachments" />
+	</group>
+	<group
+		android:id="@+id/section_wizard"
+		android:checkableBehavior="single"
+		android:visible="false">
+			<item
+				android:id="@+id/drawer_wizard"
+				android:title="@string/drawer_wizard" />
+	</group>
+
+</menu>

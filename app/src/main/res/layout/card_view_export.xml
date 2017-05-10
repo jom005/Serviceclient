@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:foreground="?android:attr/selectableItemBackground"
+	app:cardUseCompatPadding="true">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+
+		<CheckBox
+			android:id="@+id/check_box_export"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_vertical"
+			android:padding="@dimen/check_box_padding" />
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:padding="@dimen/recycler_view_item_padding">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:paddingBottom="@dimen/card_view_vertical_padding_large">
+
+				<TextView
+					android:id="@+id/text_view_order_name"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:maxLines="1"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:textStyle="bold"
+					tools:text="@string/empty_string" />
+
+				<View
+					android:id="@+id/view_status_indicator"
+					android:layout_width="@dimen/status_size"
+					android:layout_height="@dimen/status_size"
+					android:layout_marginStart="@dimen/status_margin_left"
+					android:background="@drawable/shape_status_indicator" />
+
+			</LinearLayout>
+
+			<TextView
+				android:id="@+id/text_view_order_type"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingBottom="@dimen/card_view_vertical_padding_large"
+				android:maxLines="1"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textStyle="bold"
+				tools:text="@string/empty_string" />
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:baselineAligned="false">
+
+				<LinearLayout
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="0.5"
+					android:orientation="vertical">
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal"
+						android:paddingBottom="@dimen/card_view_vertical_padding_medium">
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:maxLines="1"
+							android:text="@string/order_id"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							android:textColor="@color/work_orders_medium_text" />
+
+						<TextView
+							android:id="@+id/text_view_order_id"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:ellipsize="end"
+							android:paddingEnd="@dimen/card_view_horizontal_padding_medium"
+							android:paddingStart="@dimen/card_view_horizontal_padding_medium"
+							android:maxLines="1"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							android:textColor="@color/work_orders_medium_text"
+							tools:text="@string/empty_string" />
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="0.5"
+					android:orientation="vertical">
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal"
+						android:paddingBottom="@dimen/card_view_vertical_padding_medium">
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:maxLines="1"
+							android:text="@string/order_status"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							android:textColor="@color/work_orders_medium_text" />
+
+						<TextView
+							android:id="@+id/text_view_order_status"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:ellipsize="end"
+							android:paddingEnd="@dimen/card_view_horizontal_padding_medium"
+							android:paddingStart="@dimen/card_view_horizontal_padding_medium"
+							android:maxLines="1"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							android:textColor="@color/work_orders_medium_text"
+							tools:text="@string/empty_string" />
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</android.support.v7.widget.CardView>

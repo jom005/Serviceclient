@@ -1,0 +1,540 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context="com.example.ghost005.serviceclient.fragments.WorkEquipmentFragment">
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+
+			<android.support.v7.widget.CardView
+				android:id="@+id/card_view_work_equipment_name"
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:foreground="?android:attr/selectableItemBackground"
+				app:cardUseCompatPadding="true">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:padding="@dimen/card_view_padding">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:text="@string/work_equipment_name"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textStyle="bold" />
+
+					<TextView
+						android:id="@+id/text_view_work_equipment_name"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:textAppearance="?android:attr/textAppearanceLarge" />
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+
+			<android.support.v7.widget.CardView
+				android:id="@+id/card_view_work_equipment_category"
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:foreground="?android:attr/selectableItemBackground"
+				app:cardUseCompatPadding="true">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:padding="@dimen/card_view_padding">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:text="@string/work_equipment_category"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textStyle="bold" />
+
+					<TextView
+						android:id="@+id/text_view_work_equipment_category"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:textAppearance="?android:attr/textAppearanceLarge" />
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+
+			<android.support.v7.widget.CardView
+				android:id="@+id/card_view_equipment_information_type"
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:foreground="?android:attr/selectableItemBackground"
+				app:cardUseCompatPadding="true">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:padding="@dimen/card_view_padding">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:text="@string/equipment_information_type"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textStyle="bold" />
+
+					<TextView
+						android:id="@+id/text_view_equipment_information_type"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:textAppearance="?android:attr/textAppearanceLarge" />
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+
+			<android.support.v7.widget.CardView
+				android:id="@+id/card_view_equipment_information_series"
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:foreground="?android:attr/selectableItemBackground"
+				app:cardUseCompatPadding="true">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:padding="@dimen/card_view_padding">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:text="@string/equipment_information_series"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textStyle="bold" />
+
+					<TextView
+						android:id="@+id/text_view_equipment_information_series"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:textAppearance="?android:attr/textAppearanceLarge" />
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+
+			<android.support.v7.widget.CardView
+				android:id="@+id/card_view_equipment_information_item_number"
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:foreground="?android:attr/selectableItemBackground"
+				app:cardUseCompatPadding="true">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:padding="@dimen/card_view_padding">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:text="@string/equipment_information_item_number"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textStyle="bold" />
+
+					<TextView
+						android:id="@+id/text_view_equipment_information_item_number"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:textAppearance="?android:attr/textAppearanceLarge" />
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+
+			<android.support.v7.widget.CardView
+				android:id="@+id/card_view_equipment_information_gtin"
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:foreground="?android:attr/selectableItemBackground"
+				app:cardUseCompatPadding="true">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:padding="@dimen/card_view_padding">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:text="@string/equipment_information_gtin"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textStyle="bold" />
+
+					<TextView
+						android:id="@+id/text_view_equipment_information_gtin"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:textAppearance="?android:attr/textAppearanceLarge" />
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+
+			<android.support.v7.widget.CardView
+				android:id="@+id/card_view_equipment_information_serial_number"
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:foreground="?android:attr/selectableItemBackground"
+				app:cardUseCompatPadding="true">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:padding="@dimen/card_view_padding">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:text="@string/equipment_information_serial_number"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textStyle="bold" />
+
+					<TextView
+						android:id="@+id/text_view_equipment_information_serial_number"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:textAppearance="?android:attr/textAppearanceLarge" />
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+
+			<android.support.v7.widget.CardView
+				android:id="@+id/card_view_equipment_information_date_of_manufacture"
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:foreground="?android:attr/selectableItemBackground"
+				app:cardUseCompatPadding="true">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:padding="@dimen/card_view_padding">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:text="@string/equipment_information_date_of_manufacture"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textStyle="bold"
+						/>
+
+					<TextView
+						android:id="@+id/text_view_equipment_information_date_of_manufacture"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:textAppearance="?android:attr/textAppearanceLarge" />
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+
+			<android.support.v7.widget.CardView
+				android:id="@+id/card_view_equipment_information_start_of_warranty"
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:foreground="?android:attr/selectableItemBackground"
+				app:cardUseCompatPadding="true">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:padding="@dimen/card_view_padding">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:text="@string/equipment_information_start_of_warranty"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textStyle="bold"
+						/>
+
+					<TextView
+						android:id="@+id/text_view_equipment_information_start_of_warranty"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+
+			<android.support.v7.widget.CardView
+				android:id="@+id/card_view_equipment_information_end_of_warranty"
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:foreground="?android:attr/selectableItemBackground"
+				app:cardUseCompatPadding="true">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:padding="@dimen/card_view_padding">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:text="@string/equipment_information_end_of_warranty"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textStyle="bold" />
+
+					<TextView
+						android:id="@+id/text_view_equipment_information_end_of_warranty"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:textAppearance="?android:attr/textAppearanceLarge" />
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+
+			<android.support.v7.widget.CardView
+				android:id="@+id/card_view_equipment_information_inventory_number"
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:foreground="?android:attr/selectableItemBackground"
+				app:cardUseCompatPadding="true">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:padding="@dimen/card_view_padding">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:text="@string/equipment_information_inventory_number"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textStyle="bold" />
+
+					<TextView
+						android:id="@+id/text_view_equipment_information_inventory_number"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:textAppearance="?android:attr/textAppearanceLarge" />
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+
+			<android.support.v7.widget.CardView
+				android:id="@+id/card_view_equipment_last_checks"
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:foreground="?android:attr/selectableItemBackground"
+				app:cardUseCompatPadding="true">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:padding="@dimen/card_view_padding">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:text="@string/equipment_last_checks"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textStyle="bold" />
+
+					<TextView
+						android:id="@+id/text_view_equipment_last_checks"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:textAppearance="?android:attr/textAppearanceLarge" />
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+
+			<android.support.v7.widget.CardView
+				android:id="@+id/card_view_work_equipment_usage_start"
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:foreground="?android:attr/selectableItemBackground"
+				app:cardUseCompatPadding="true">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:padding="@dimen/card_view_padding">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:text="@string/work_equipment_usage_start"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textStyle="bold" />
+
+					<TextView
+						android:id="@+id/text_view_work_equipment_usage_start"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:textAppearance="?android:attr/textAppearanceLarge" />
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+
+			<android.support.v7.widget.CardView
+				android:id="@+id/card_view_work_equipment_usage_end"
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:foreground="?android:attr/selectableItemBackground"
+				app:cardUseCompatPadding="true">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:padding="@dimen/card_view_padding">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:text="@string/work_equipment_usage_end"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textStyle="bold" />
+
+					<TextView
+						android:id="@+id/text_view_work_equipment_usage_end"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:textAppearance="?android:attr/textAppearanceLarge" />
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+
+			<android.support.v7.widget.CardView
+				android:id="@+id/card_view_work_equipment_usage_duration"
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:foreground="?android:attr/selectableItemBackground"
+				app:cardUseCompatPadding="true">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:padding="@dimen/card_view_padding">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:text="@string/work_equipment_usage_duration"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textStyle="bold" />
+
+					<TextView
+						android:id="@+id/text_view_work_equipment_usage_duration"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_margin="@dimen/edit_pattern_margin"
+						android:textAppearance="?android:attr/textAppearanceLarge" />
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+	<include
+		android:id="@+id/buttons"
+		layout="@layout/buttons_choose" />
+
+</LinearLayout>

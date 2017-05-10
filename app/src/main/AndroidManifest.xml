@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="com.example.ghost005.serviceclient">
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <uses-feature android:name="android.hardware.camera2" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.flash" />
+
+
+
+    <application
+
+        android:name=".database.DatabaseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/title_activity_login"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+        <!--<activity-->
+            <!--android:name=".activities.LoginActivity"-->
+            <!--android:label="@string/title_activity_login"-->
+            <!--android:launchMode="singleInstance">-->
+            <!--&lt;!&ndash;android:theme="android:style/Theme.NoDisplay"&ndash;&gt;-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+        <!-- Activities -->
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="@string/title_activity_main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.WorkOrderActivity"
+            android:label="@string/title_activity_work_order">
+        </activity>
+        <activity
+            android:name=".activities.CommentActivity"
+            android:label="@string/title_activity_comment">
+        </activity>
+        <activity
+            android:name=".activities.WorkOrderItemActivity"
+            android:label="@string/title_activity_work_order_item">
+        </activity>
+        <activity
+            android:name=".activities.EnvironmentalConditionActivity"
+            android:label="@string/title_activity_environmental_conditions">
+        </activity>
+        <activity
+            android:name=".activities.MaterialActivity"
+            android:label="@string/title_activity_material">
+        </activity>
+        <activity
+            android:name=".activities.EquipmentActivity"
+            android:label="@string/title_activity_equipment">
+        </activity>
+        <activity
+            android:name=".activities.WorkEquipmentActivity"
+            android:label="@string/title_activity_work_equipment">
+        </activity>
+        <activity
+            android:name=".activities.FilesActivity"
+            android:label="@string/title_activity_files">
+        </activity>
+        <activity
+            android:name=".activities.TimeReportActivity"
+            android:label="@string/title_activity_time_report">
+        </activity>
+        <activity
+            android:name=".activities.TaskActivity"
+            android:label="@string/title_activity_task">
+        </activity>
+        <activity
+            android:name=".activities.ExportActivity"
+            android:label="@string/title_activity_export">
+        </activity>
+        <!-- Services -->
+        <service
+            android:name=".services.ImportService"
+            android:exported="false">
+        </service>
+        <service
+            android:name=".services.ExportService"
+            android:exported="false">
+        </service>
+        <service
+            android:name=".services.CameraService"
+            android:exported="false">
+        </service>
+
+    </application>
+
+</manifest>

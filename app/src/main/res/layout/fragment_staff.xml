@@ -1,0 +1,55 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:orientation="vertical"
+	tools:context="com.example.ghost005.serviceclient.fragments.base.StaffFragment">
+
+	<android.support.v7.widget.CardView
+		android:id="@+id/card_view_responsible_employee_header"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		app:cardUseCompatPadding="true">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="@dimen/edit_text_padding"
+			android:text="@string/employee_responsible_employee"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:textStyle="bold" />
+
+	</android.support.v7.widget.CardView>
+
+	<include
+		android:id="@+id/card_view_responsible_employee"
+		layout="@layout/card_view_employee" />
+
+	<View
+		style="@style/divider_horizontal" />
+
+	<android.support.v7.widget.CardView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		app:cardUseCompatPadding="true">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="@dimen/edit_text_padding"
+			android:text="@string/staff_staff"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:textStyle="bold" />
+
+	</android.support.v7.widget.CardView>
+
+	<android.support.v7.widget.RecyclerView
+		android:id="@+id/recycler_view_staff"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:scrollbars="vertical" />
+
+
+</LinearLayout>

@@ -1,0 +1,213 @@
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context="com.example.ghost005.serviceclient.fragments.work_order_item.RDSPPElementFragment">
+
+	<TableLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="@dimen/table_layout_padding"
+		android:shrinkColumns="1">
+
+		<TableRow
+			android:padding="@dimen/table_layout_row_padding">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/rdspp_element_rdspp_designation"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textStyle="bold" />
+
+			<TextView
+				android:id="@+id/text_view_rdspp_element_rdspp_designation"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingEnd="@dimen/table_layout_item_padding_horizontal"
+				android:paddingStart="@dimen/table_layout_item_padding_horizontal"
+				android:text="@string/empty_string"
+				android:textAppearance="?android:attr/textAppearanceLarge" />
+
+		</TableRow>
+
+		<TableRow
+			android:padding="@dimen/table_layout_row_padding">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/rdspp_element_description"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textStyle="bold" />
+
+			<TextView
+				android:id="@+id/text_view_rdspp_element_description"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingEnd="@dimen/table_layout_item_padding_horizontal"
+				android:paddingStart="@dimen/table_layout_item_padding_horizontal"
+				android:text="@string/empty_string"
+				android:textAppearance="?android:attr/textAppearanceLarge" />
+
+		</TableRow>
+
+		<TableRow
+			android:id="@+id/table_row_rdspp_element_element_parent"
+			android:padding="@dimen/table_layout_row_padding">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/rdspp_element_element_parent"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textStyle="bold" />
+
+			<TextView
+				android:id="@+id/text_view_rdspp_element_element_parent"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingEnd="@dimen/table_layout_item_padding_horizontal"
+				android:paddingStart="@dimen/table_layout_item_padding_horizontal"
+				android:text="@string/empty_string"
+				android:textAppearance="?android:attr/textAppearanceLarge" />
+
+		</TableRow>
+
+		<TableRow
+			android:id="@+id/table_row_rdspp_element_poi_designation"
+			android:padding="@dimen/table_layout_row_padding">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/rdspp_element_poi_designation"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textStyle="bold" />
+
+			<TextView
+				android:id="@+id/text_view_rdspp_element_poi_designation"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingEnd="@dimen/table_layout_item_padding_horizontal"
+				android:paddingStart="@dimen/table_layout_item_padding_horizontal"
+				android:text="@string/empty_string"
+				android:textAppearance="?android:attr/textAppearanceLarge" />
+
+		</TableRow>
+
+		<TableRow
+			android:id="@+id/table_row_rdspp_element_poi_name"
+			android:padding="@dimen/table_layout_row_padding">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/rdspp_element_poi_name"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textStyle="bold" />
+
+			<TextView
+				android:id="@+id/text_view_rdspp_element_poi_name"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingEnd="@dimen/table_layout_item_padding_horizontal"
+				android:paddingStart="@dimen/table_layout_item_padding_horizontal"
+				android:text="@string/empty_string"
+				android:textAppearance="?android:attr/textAppearanceLarge" />
+
+		</TableRow>
+
+		<TableRow
+			android:id="@+id/table_row_rdspp_element_poi_parent"
+			android:padding="@dimen/table_layout_row_padding">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/rdspp_element_poi_parent"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textStyle="bold" />
+
+			<TextView
+				android:id="@+id/text_view_rdspp_element_poi_parent"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingEnd="@dimen/table_layout_item_padding_horizontal"
+				android:paddingStart="@dimen/table_layout_item_padding_horizontal"
+				android:text="@string/empty_string"
+				android:textAppearance="?android:attr/textAppearanceLarge" />
+
+		</TableRow>
+
+		<TableRow
+			android:id="@+id/table_row_rdspp_element_location_designation"
+			android:padding="@dimen/table_layout_row_padding">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/rdspp_element_location_designation"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textStyle="bold" />
+
+			<TextView
+				android:id="@+id/text_view_rdspp_element_location_designation"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingEnd="@dimen/table_layout_item_padding_horizontal"
+				android:paddingStart="@dimen/table_layout_item_padding_horizontal"
+				android:text="@string/empty_string"
+				android:textAppearance="?android:attr/textAppearanceLarge" />
+
+		</TableRow>
+
+		<TableRow
+			android:id="@+id/table_row_rdspp_element_location_name"
+			android:padding="@dimen/table_layout_row_padding">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/rdspp_element_location_name"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textStyle="bold" />
+
+			<TextView
+				android:id="@+id/text_view_rdspp_element_location_name"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingEnd="@dimen/table_layout_item_padding_horizontal"
+				android:paddingStart="@dimen/table_layout_item_padding_horizontal"
+				android:text="@string/empty_string"
+				android:textAppearance="?android:attr/textAppearanceLarge" />
+
+		</TableRow>
+
+		<TableRow
+			android:id="@+id/table_row_rdspp_element_location_parent"
+			android:padding="@dimen/table_layout_row_padding">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/rdspp_element_location_parent"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textStyle="bold" />
+
+			<TextView
+				android:id="@+id/text_view_rdspp_element_location_parent"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingEnd="@dimen/table_layout_item_padding_horizontal"
+				android:paddingStart="@dimen/table_layout_item_padding_horizontal"
+				android:text="@string/empty_string"
+				android:textAppearance="?android:attr/textAppearanceLarge" />
+
+		</TableRow>
+
+	</TableLayout>
+
+</ScrollView>

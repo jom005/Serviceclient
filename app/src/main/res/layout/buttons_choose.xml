@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+	<View
+		android:id="@+id/separator_horizontal"
+		style="@style/divider_horizontal" />
+
+	<LinearLayout
+		android:id="@+id/linear_layout_buttons"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+
+		<Button
+			android:id="@+id/button_cancel"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="0.999"
+			android:background="?android:attr/selectableItemBackground"
+			android:text="@string/button_cancel"
+			android:textAppearance="?android:attr/textAppearanceLarge" />
+
+		<View
+			style="@style/divider_vertical"
+			android:layout_weight="0.001" />
+
+		<Button
+			android:id="@+id/button_ok"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="0.999"
+			android:background="?android:attr/selectableItemBackground"
+			android:text="@string/button_ok"
+			android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	</LinearLayout>
+
+</LinearLayout>

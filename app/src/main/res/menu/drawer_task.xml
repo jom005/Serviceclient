@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<group
+		android:checkableBehavior="single">
+		<item
+			android:id="@+id/drawer_task_information"
+			android:title="@string/drawer_task_information" />
+		<item
+			android:id="@+id/drawer_times"
+			android:title="@string/drawer_times" />
+		<item
+			android:id="@+id/drawer_work_equipments"
+			android:title="@string/drawer_task_work_equipments" />
+	</group>
+
+</menu>

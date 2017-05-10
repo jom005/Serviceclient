@@ -1,0 +1,27 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context="com.example.ghost005.serviceclient.fragments.CommentFragment">
+
+	<EditText
+		android:id="@+id/edit_text_comment"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_margin="@dimen/fragment_dialog_comment_margin"
+		android:gravity="start|left"
+		android:hint="@string/hint_comment"
+		android:inputType="textMultiLine"
+		android:padding="@dimen/edit_text_padding"
+		android:scrollbars="vertical"
+		android:textAppearance="@style/TextStyle.Comment"
+		android:layout_weight="1"/>
+
+	<include
+		android:id="@+id/layout_buttons"
+		layout="@layout/buttons_choose" />
+
+</LinearLayout>
+

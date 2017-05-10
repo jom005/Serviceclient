@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Base application theme api > 21 -->
+	<style name="AppTheme" parent="AppTheme.Base">
+		<item name="android:navigationBarColor">@color/accent</item>
+		<item name="colorAccent">@color/accent</item>
+	</style>
+</resources>

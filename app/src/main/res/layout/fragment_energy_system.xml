@@ -1,0 +1,368 @@
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:scrollbars="vertical"
+	tools:context="com.example.ghost005.serviceclient.fragments.work_order.EnergySystemFragment">
+
+	<TableLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="@dimen/table_layout_padding"
+		android:shrinkColumns="1">
+
+		<TableRow
+			android:padding="@dimen/table_layout_row_padding">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/energy_system_id"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textStyle="bold" />
+
+			<TextView
+				android:id="@+id/text_view_energy_system_id"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingEnd="@dimen/table_layout_item_padding_horizontal"
+				android:paddingStart="@dimen/table_layout_item_padding_horizontal"
+				android:text="@string/empty_string"
+				android:textAppearance="?android:attr/textAppearanceLarge" />
+		</TableRow>
+
+		<TableRow
+			android:padding="@dimen/table_layout_row_padding">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/energy_system_serial_number"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textStyle="bold" />
+
+			<TextView
+				android:id="@+id/text_view_energy_system_serial_number"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingEnd="@dimen/table_layout_item_padding_horizontal"
+				android:paddingStart="@dimen/table_layout_item_padding_horizontal"
+				android:text="@string/empty_string"
+				android:textAppearance="?android:attr/textAppearanceLarge" />
+		</TableRow>
+
+		<TableRow
+			android:padding="@dimen/table_layout_row_padding">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/energy_system_type"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textStyle="bold" />
+
+			<TextView
+				android:id="@+id/text_view_energy_system_type"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingEnd="@dimen/table_layout_item_padding_horizontal"
+				android:paddingStart="@dimen/table_layout_item_padding_horizontal"
+				android:text="@string/empty_string"
+				android:textAppearance="?android:attr/textAppearanceLarge" />
+		</TableRow>
+
+		<TableRow
+			android:padding="@dimen/table_layout_row_padding">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/energy_system_series"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textStyle="bold" />
+
+			<TextView
+				android:id="@+id/text_view_energy_system_series"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingEnd="@dimen/table_layout_item_padding_horizontal"
+				android:paddingStart="@dimen/table_layout_item_padding_horizontal"
+				android:text="@string/empty_string"
+				android:textAppearance="?android:attr/textAppearanceLarge" />
+		</TableRow>
+
+		<TableRow
+			android:padding="@dimen/table_layout_row_padding">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/energy_system_manufacturer"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textStyle="bold" />
+
+			<TextView
+				android:id="@+id/text_view_energy_system_manufacturer"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingEnd="@dimen/table_layout_item_padding_horizontal"
+				android:paddingStart="@dimen/table_layout_item_padding_horizontal"
+				android:text="@string/empty_string"
+				android:textAppearance="?android:attr/textAppearanceLarge" />
+		</TableRow>
+
+		<TableRow
+			android:padding="@dimen/table_layout_row_padding">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/energy_system_operator"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textStyle="bold" />
+
+			<TextView
+				android:id="@+id/text_view_energy_system_operator"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingEnd="@dimen/table_layout_item_padding_horizontal"
+				android:paddingStart="@dimen/table_layout_item_padding_horizontal"
+				android:text="@string/empty_string"
+				android:textAppearance="?android:attr/textAppearanceLarge" />
+		</TableRow>
+
+		<TableRow
+			android:padding="@dimen/table_layout_row_padding">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/energy_system_owner"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textStyle="bold" />
+
+			<TextView
+				android:id="@+id/text_view_energy_system_owner"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingEnd="@dimen/table_layout_item_padding_horizontal"
+				android:paddingStart="@dimen/table_layout_item_padding_horizontal"
+				android:text="@string/empty_string"
+				android:textAppearance="?android:attr/textAppearanceLarge" />
+		</TableRow>
+
+		<TableRow
+			android:id="@+id/table_row_energy_system_source"
+			android:padding="@dimen/table_layout_row_padding">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/energy_system_source"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textStyle="bold" />
+
+			<TextView
+				android:id="@+id/text_view_energy_system_source"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingEnd="@dimen/table_layout_item_padding_horizontal"
+				android:paddingStart="@dimen/table_layout_item_padding_horizontal"
+				android:text="@string/empty_string"
+				android:textAppearance="?android:attr/textAppearanceLarge" />
+		</TableRow>
+
+		<TableRow
+			android:id="@+id/table_row_energy_system_rated_power"
+			android:padding="@dimen/table_layout_row_padding">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/energy_system_rated_power"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textStyle="bold" />
+
+			<TextView
+				android:id="@+id/text_view_energy_system_rated_power"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingEnd="@dimen/table_layout_item_padding_horizontal"
+				android:paddingStart="@dimen/table_layout_item_padding_horizontal"
+				android:text="@string/empty_string"
+				android:textAppearance="?android:attr/textAppearanceLarge" />
+		</TableRow>
+
+		<TableRow
+			android:id="@+id/table_row_energy_system_hub_height"
+			android:padding="@dimen/table_layout_row_padding">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/energy_system_hub_height"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textStyle="bold" />
+
+			<TextView
+				android:id="@+id/text_view_energy_system_hub_heigt"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingEnd="@dimen/table_layout_item_padding_horizontal"
+				android:paddingStart="@dimen/table_layout_item_padding_horizontal"
+				android:text="@string/empty_string"
+				android:textAppearance="?android:attr/textAppearanceLarge" />
+		</TableRow>
+
+		<TableRow
+			android:id="@+id/table_row_energy_system_rotor_diameter"
+			android:padding="@dimen/table_layout_row_padding">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/energy_system_rotor_diameter"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textStyle="bold" />
+
+			<TextView
+				android:id="@+id/text_view_energy_system_rotor_diameter"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingEnd="@dimen/table_layout_item_padding_horizontal"
+				android:paddingStart="@dimen/table_layout_item_padding_horizontal"
+				android:text="@string/empty_string"
+				android:textAppearance="?android:attr/textAppearanceLarge" />
+		</TableRow>
+
+		<TableRow
+			android:id="@+id/table_row_energy_system_date_of_manufacture"
+			android:padding="@dimen/table_layout_row_padding">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/energy_system_date_of_manufacture"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textStyle="bold" />
+
+			<TextView
+				android:id="@+id/text_view_energy_system_date_of_manufacture"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingEnd="@dimen/table_layout_item_padding_horizontal"
+				android:paddingStart="@dimen/table_layout_item_padding_horizontal"
+				android:text="@string/empty_string"
+				android:textAppearance="?android:attr/textAppearanceLarge" />
+		</TableRow>
+
+		<TableRow
+			android:id="@+id/table_row_energy_system_operational_since"
+			android:padding="@dimen/table_layout_row_padding">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/energy_system_operational_since"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textStyle="bold" />
+
+			<TextView
+				android:id="@+id/text_view_energy_system_operational_since"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingEnd="@dimen/table_layout_item_padding_horizontal"
+				android:paddingStart="@dimen/table_layout_item_padding_horizontal"
+				android:text="@string/empty_string"
+				android:textAppearance="?android:attr/textAppearanceLarge" />
+		</TableRow>
+
+		<TableRow
+			android:id="@+id/table_row_energy_system_start_of_warranty"
+			android:padding="@dimen/table_layout_row_padding">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/energy_system_start_of_warranty"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textStyle="bold" />
+
+			<TextView
+				android:id="@+id/text_view_energy_system_start_of_warranty"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingEnd="@dimen/table_layout_item_padding_horizontal"
+				android:paddingStart="@dimen/table_layout_item_padding_horizontal"
+				android:text="@string/empty_string"
+				android:textAppearance="?android:attr/textAppearanceLarge" />
+		</TableRow>
+
+		<TableRow
+			android:id="@+id/table_row_energy_system_end_of_warranty"
+			android:padding="@dimen/table_layout_row_padding">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/energy_system_end_of_warranty"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textStyle="bold" />
+
+			<TextView
+				android:id="@+id/text_view_energy_system_end_of_warranty"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingEnd="@dimen/table_layout_item_padding_horizontal"
+				android:paddingStart="@dimen/table_layout_item_padding_horizontal"
+				android:text="@string/empty_string"
+				android:textAppearance="?android:attr/textAppearanceLarge" />
+		</TableRow>
+
+		<TableRow
+			android:id="@+id/table_row_energy_system_wae_nis"
+			android:padding="@dimen/table_layout_row_padding">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/energy_system_wae_nis"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textStyle="bold" />
+
+			<TextView
+				android:id="@+id/text_view_energy_system_wea_nis"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingEnd="@dimen/table_layout_item_padding_horizontal"
+				android:paddingStart="@dimen/table_layout_item_padding_horizontal"
+				android:text="@string/empty_string"
+				android:textAppearance="?android:attr/textAppearanceLarge" />
+		</TableRow>
+
+		<TableRow
+			android:id="@+id/table_row_energy_system_address"
+			android:padding="@dimen/table_layout_row_padding">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/energy_system_address"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textStyle="bold" />
+
+			<TextView
+				android:id="@+id/text_view_energy_system_address"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingEnd="@dimen/table_layout_item_padding_horizontal"
+				android:paddingStart="@dimen/table_layout_item_padding_horizontal"
+				android:text="@string/empty_string"
+				android:textAppearance="?android:attr/textAppearanceLarge" />
+		</TableRow>
+
+	</TableLayout>
+
+</ScrollView>
